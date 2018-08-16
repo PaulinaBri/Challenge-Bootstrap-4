@@ -16,12 +16,93 @@
                     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-
     JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <div>
+    <div class="container-fluid">
+            <img src="https://cdn.pixabay.com/photo/2016/11/19/20/17/catwalk-1840941_960_720.jpg" alt="fashion">
         <article>
             <h2>Fashion world</h2>
-            <img src="https://cdn.pixabay.com/photo/2016/11/19/20/17/catwalk-1840941_960_720.jpg">
             <p>Fashion world are amazing, colorfull and unpredictable. Fashion changes over the years. There is currently a trend for promoting plus size. Is this good or not? It depends on which side to look at. But every woman, regardless of size, should be able to feel beautiful, sexy and well-dressed. And I think that promoting plus size is good in this matter. However, in terms of health, not completely. </p>
         </article>
+   </div>
+   <!-- Task 5 For the earlier classes .col - 6 and .col - lg - 2 add a class that will make you
+in tablet resolutions will be displayed in the first row
+columns - 2 columns, in the second row - 3 columns and in the third row
+1 column.-->
+   <section>
+       <div class="container">
+           <div class="row">
+                <div class="col-6	col-lg-2">1</div>
+                <div class="col-6	col-lg-2">2</div>
+                <div class="col-6	col-lg-2 col-md-4">3</div>
+                <div class="col-6	col-lg-2 col-md-4">4</div>
+                <div class="col-6	col-lg-2 col-md-4">5</div>
+                <div class="col-6	col-lg-2 col-md-12">6</div>
+           </div>
+       </div>
+   </section>
+   <!--Task 6 Create a container, stretched over the entire width of the page. Inside
+container put 1 row with two columns. Have a second column
+she will have the .col - 8 class.
+Then create another container, this time centered. Let
+2 columns next to each other are displayed on the computer screens, of which
+the first one has the .col - 8 class. On the screens of mobile columns
+They are intended to occupy all available space and be one of the
+second.
+Finally, make one more container on the entire width of the page 1
+column.-->
+   <section>
+       <div class="container-fluid">
+           <div class="row">
+                <div class="col">1</div>
+                <div class="col-8">2</div>
+           </div>
+       </div>
+       <div class="container">
+            <div class="row">
+              <div class="col-12	col-lg-8">1</div>
+              <div class="col-12	col-lg-4">2</div>
+            </div>
+        </div>
+       <div class="container-fluid">
+            <div class="row">
+             <div class="col">1</div>
+            </div>
+        </div>
+   </section>
+   <!--Task 8 Create 2 columns - first (1) and second (2). Place them inside
+title using the <h2> tag and some text using <p>.
+Make the columns in the smartphone version appear in the order 1,
+2, computers and vice versa, ie in the order 2, 1.-->
+<section>
+    <div class="container">
+        <div class="row">
+         <div class="col-sm-6	order-md-2">
+             <h2>Fashion - size zero</h2>
+                    <p>Fortunately, the size zero fashion is passing by. The pursuit of an imaginary ideal often ended with anorexia or bulimia in models. Which led to creating a not real pattern of beauty among teenagers.</p>
     </div>
+    <div class="col-sm-6">
+                <h2>Fashion plus size</h2>
+                     <p>Plus size fashion is a step into the future, a step towards the acceptance of larger women. However, it can also be a dangerous step to lose health. Let's say it clearly! Obesity is not healthy and should not be promoted as something normal and very beautiful. Round and full shapes are good, stretch marks are okay, but excessive weight may not be okay for health.</p>
+        </div>
+    </div>		
+</div>		
+
+</section>
+<!--Task 9 Create 4 columns with the .col-2 class. Center all elements
+centrally. The fourth column, move to the right. First
+move up the column to the left.
+Column 3 and 4 slide on one column at a time, using the class .offset-->
+<section>
+    <div class="container">
+        <div class="row	row	justify-content-center">
+            <div class="col-2	mr-auto">1</div>
+            <div class="col-2	offset-sm-1">2</div>
+            <div class="col-2	offset-sm-1">3</div>
+            <div class="col-2	ml-auto">4</div>
+        </div>		
+</div>
+</section>
+<!-- Task 10 Write text: bold, bigger to smaller-->
+<h2>Fashion will never go out of fashion,
+    <small class="text-muted"> it's timeless</small></h2>
 </body>
 </html>
